@@ -11,4 +11,4 @@ const puntaje = localStorage.getItem("puntajeFinal");
 //mediante un templateString, concatenadmoms el mensaje que queremos que reciba el usuario
 //le asignamos a la varibale puntajeFinal medinate el metodo textContent, que reescriba su contenidotexto
 //que tenia en la estructura del html
-puntajeFinal.textContent = `$¡{usuario}! Tu puntaje es:  ${puntaje}`;
+puntajeFinal.textContent = `¡${usuario}! Tu puntaje es:  ${puntaje}`;
