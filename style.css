@@ -19,12 +19,16 @@ html, body {
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  background: url(./img/fondoSmall.png) no-repeat center /100% 100%;
-  background-size: cover;
-  
+  background: url(./img/fondoMedium.png) no-repeat center;
+  /* background-size: cover; */
+  gap: 20px;
 }
+  
+
 
 .contenedorCategorias, .contenedorPreguntas{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,12 +38,13 @@ html, body {
 }
 
 .contenedorMensajeBienvenida {
-/*   font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fdfdfd;
   text-shadow: -2px 3px 0 #45196e, -2px 3px 0 #9ed3db;
   text-align: center;
   padding-bottom: 30px;
+  margin-top: 100px;
 }
 
 .usuario{
@@ -52,13 +57,19 @@ html, body {
 /*   font-family: 'Patrick Hand', cursive; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
-  font-style: italic;
+  /* font-style: italic; */
   background: #fcf69c78;
   margin-bottom: 15px;
 }
 
+.usuario::placeholder{
+  color: rgb(62, 7, 48);
+  font-weight: 100;
+  font-style: italic;
+}
+
 button{
-  width: 70px;
+ /*  width: 70px; */
   padding: 5px 15px;
   border-radius: 6px;
   border-style: none;
@@ -148,6 +159,7 @@ a{
   border: none;
   border-radius: 10px;
   box-shadow: 0 9px #bd253c;
+  margin-bottom: 20px;
 }
 
 
@@ -165,6 +177,7 @@ a:active {
 .tarjetasDeCategorias h2{
   font-family: cursive;
   /* font-weight: bold; */
+  font-size: 30px;
   color: #12c78e;
   text-shadow: 1px 2px #605a5a;
 }
@@ -226,7 +239,7 @@ a:active {
 }
   
 #siguiente{
-  width: 80px;
+  /* width: 80px; */
   /* height: 60px; */
   padding: 8px 12px;
   border-radius: 50px;
@@ -245,7 +258,8 @@ a:active {
   text-align: center;
   color: #FBCB0A;
   text-shadow: 2px 1px #584704;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding-top: 100px;
 }
 
 .contenedorBotones{
@@ -253,7 +267,7 @@ a:active {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  justify-content: center;s
+  justify-content: center;
 }
 
 .botonesPuntaje{
@@ -286,4 +300,67 @@ a:active {
 }
 #salir:hover{
   background: url(./img/hoverSalir.png) no-repeat center center / cover;
+}
+
+@media (min-width: 700px){
+  .contenedorBienvenida, .contenedorPuntaje{
+
+    padding: 30px;
+    background: url(./img/fondo.png) no-repeat center;
+    background-size: cover;
+    
+  }
+
+  .usuario{
+    width: 30%;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  .contenedorMensajeBienvenida{
+    margin-top: 10px;
+  }
+
+  .tarjetasDeCategorias {
+    width: 500px;
+    max-width: 700px;
+    height: 400px;
+    max-height: 900px;
+    padding: 10px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tarjetaCategoria {
+    width: 230px;
+    /* max-width: 400px; */
+    height: 350px;
+    max-height: 500px;
+  }
+
+  .tarjetasDeCategorias h2 {
+    font-family: cursive;
+    /* font-weight: bold; */
+    font-size: 35px;
+  }
+
+  .tarjetaCategoria img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+  }
+
+  #textoPuntaje{
+    padding: 0;
+    font-size: 50px;
+  }
+
+  #botonIniciar, #siguiente {
+    padding: 10px 30px;
+  }
+
+  .tituloCategorias {
+    font-size: 50px;
+  }
 }
