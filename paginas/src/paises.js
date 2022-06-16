@@ -2,7 +2,7 @@
     //es decir, usamos arrays, y objetos para definir un diccionario de preguntas
 const preguntas = [
     {  
-        contenido: "Cuál es el país mas grande de latinoamerica?",
+        contenido: "¿Cuál es el país mas grande de latinoamerica?",
         respuestas: [
           {id: "a", respuesta: "Brasil"},
           {id: "b", respuesta: "Colombia"},
@@ -12,7 +12,7 @@ const preguntas = [
         correcta: "a", 
     },
     {
-        contenido: "Cuál es la Cápital de Afganistan?",
+        contenido: "¿Cuál es la Cápital de Afganistan?",
         respuestas: [
           {id: "a", respuesta: "Tripolia"},
           {id: "b", respuesta: "Kabul"},
@@ -22,7 +22,7 @@ const preguntas = [
         correcta: "b", 
     },
    {
-        contenido: "País más poblado del mundo?",
+        contenido: "¿País más poblado del mundo?",
         respuestas: [
           {id: "a", respuesta: "Nepal"},
           {id: "b", respuesta: "Kenia"},

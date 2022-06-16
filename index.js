@@ -14,7 +14,7 @@ function iniciar () {
     //se hace una condicion para evitar que si el input es vacio se ejcute la funcion(enviarnos a pag-siguiente) 
     if (nombreUsuario == "") {
         //le ponemos una alert 
-        alert("por favor ingresa un nombre");
+        alert("Por Favor Ingresa Un Nombre");
 
         return;
     };

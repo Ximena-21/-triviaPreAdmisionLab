@@ -7,7 +7,7 @@ const msmCategorias = document.querySelector(".tituloCategorias");
 
     //al elemento que trajimos, con la propiedad .textContent, modificamos su 
     //contenido, el cual definimos usando un templateStrinng (nos permite concatenar variables y texto facilmente)
-msmCategorias.textContent = `Hola, ${usuario}! selecciona una categoria:`;
+msmCategorias.textContent = `Hola ${usuario}! selecciona una categoría:`;
 
     //reiniciar el puntaje cada vez que se seleccione una categoria, seteando(guardando) 
     //el valor que queremos que tome, desde el localStorage.
