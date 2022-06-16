@@ -34,7 +34,8 @@ html, body {
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  background: linear-gradient(207.8deg, #490b58 16.69%, #a70f9b 100%);
+  /* background: linear-gradient(207.8deg, #490b58 16.69%, #a70f9b 100%); */
+  background: #c49bc1;
 }
 
 .contenedorMensajeBienvenida {
@@ -126,7 +127,7 @@ button{
   height: 220px;
   max-height: 500px;
   text-align: center;
-  background: #f5ca72;
+  background: #f1eee8;
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
@@ -192,6 +193,7 @@ a:active {
   /* height: 90%; */
  /*  background-color: #fcf69c; */
   background: url(./img/fondoHumo.jpg) no-repeat center /cover;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   display: flex;
   justify-content: center;
   align-items: center;
