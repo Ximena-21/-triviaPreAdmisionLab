@@ -224,20 +224,22 @@ a:active {
 
 
 .boton {
-  width: 200px;
+  width: 250px;
   outline: none;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: 1px solid #b8b7b7;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
-  background: #08a0b9;
-  color: #e7e0e5;
+  background: #ffffff;
+  color: #0970c9;
   font-family: cursive;
   font-size: 16px;
+  text-align: start;
 }
   
 .boton:hover{
-  color: white;
+  color: #FFC54D;
+  border: 1px solid #FFC54D;
 }
   
 #siguiente{
